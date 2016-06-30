@@ -9,12 +9,17 @@ body {
 
 }
 
-.container {
+.grid {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+
 }
 
+.grid-row {
+  
+}
 /*Some default styles to make each box visible.*/
 .box {
   color:black;
@@ -23,5 +28,6 @@ body {
   text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
   padding: 10px;
   border: 1px solid black;
-  flex: 1;
+  height: 100px;
+  width:  100px;
 }
