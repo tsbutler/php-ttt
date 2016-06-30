@@ -31,6 +31,8 @@ session_start();
     echo $_SESSION["box6"] = "-";
     echo $_SESSION["box7"] = "-";
     echo $_SESSION["box8"] = "-";
+
+    $turn_counter = 0;
   ?>
 
 </body>
