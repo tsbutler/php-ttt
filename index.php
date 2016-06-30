@@ -23,25 +23,33 @@ session_start();
     $_SESSION["box8"] = "-";
 
     $turn_counter = 0;
+    if ($turn_counter == 0) {
+      $turn = "X";
+      $turn_counter = 1;
+    }
+    elseif ($turn_counter == 0) {
+      $turn = "O"
+      $turn_counter = 0;
+    }
   ?>
 
   <div class="grid">
     <div class="grid-row row1">
-      <div class="box box0"><?php echo $_SESSION["box0"]; ?></div>
-      <div class="box box1"><?php echo $_SESSION["box1"]; ?></div>
-      <div class="box box2"><?php echo $_SESSION["box2"]; ?></div>
+      <div class="grid-box box0"><?php echo $_SESSION["box0"]; ?></div>
+      <div class="grid-box box1"><?php echo $_SESSION["box1"]; ?></div>
+      <div class="grid-box box2"><?php echo $_SESSION["box2"]; ?></div>
     </div>
     <div class="grid-row row2">  
-      <div class="box box3"><?php echo $_SESSION["box3"]; ?></div>
-      <div class="box box4"><?php echo $_SESSION["box4"]; ?></div>
-      <div class="box box5"><?php echo $_SESSION["box5"]; ?></div>
+      <div class="grid-box box3"><?php echo $_SESSION["box3"]; ?></div>
+      <div class="grid-box box4"><?php echo $_SESSION["box4"]; ?></div>
+      <div class="grid-box box5"><?php echo $_SESSION["box5"]; ?></div>
     </div>
     <div class="grid-row row3">
-      <div class="box box6"><?php echo $_SESSION["box6"]; ?></div>
-      <div class="box box7"><?php echo $_SESSION["box7"]; ?></div>
-      <div class="box box8"><?php echo $_SESSION["box8"]; ?></div>
+      <div class="grid-box box6"><?php echo $_SESSION["box6"]; ?></div>
+      <div class="grid-box box7"><?php echo $_SESSION["box7"]; ?></div>
+      <div class="grid-box box8"><?php echo $_SESSION["box8"]; ?></div>
     </div>  
-  </div>  
+  </div>
 
 </body>
 </html>
