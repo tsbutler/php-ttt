@@ -6,6 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="style.css">
   <title>Tic | Tac | Toe</title>
 </head>
 <body>
