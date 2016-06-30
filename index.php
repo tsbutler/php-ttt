@@ -22,15 +22,15 @@ session_start();
     $_SESSION["box7"] = "-";
     $_SESSION["box8"] = "-";
 
-    $turn_counter = 0;
-    if ($turn_counter == 0) {
-      $turn = "X";
-      $turn_counter = 1;
-    }
-    elseif ($turn_counter == 0) {
-      $turn = "O"
-      $turn_counter = 0;
-    }
+    // $turn_counter = 0;
+    // if ($turn_counter == 0) {
+    //   $turn = "X";
+    //   $turn_counter = 1;
+    // }
+    // elseif ($turn_counter == 0) {
+    //   $turn = "O"
+    //   $turn_counter = 0;
+    // }
   ?>
 
   <div class="grid">
