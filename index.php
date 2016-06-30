@@ -21,19 +21,20 @@ session_start();
     $_SESSION["box7"] = "-";
     $_SESSION["box8"] = "-";
 
-    
-    echo $_SESSION["box0"] = "-";
-    echo $_SESSION["box1"] = "-";
-    echo $_SESSION["box2"] = "-";
-    echo $_SESSION["box3"] = "-";
-    echo $_SESSION["box4"] = "-";
-    echo $_SESSION["box5"] = "-";
-    echo $_SESSION["box6"] = "-";
-    echo $_SESSION["box7"] = "-";
-    echo $_SESSION["box8"] = "-";
-
     $turn_counter = 0;
   ?>
+
+  <div class="container">
+    <div class="box box0"><?php echo $_SESSION["box0"]; ?></div>
+    <div class="box box1"><?php echo $_SESSION["box1"]; ?></div>
+    <div class="box box2"><?php echo $_SESSION["box2"]; ?></div>
+    <div class="box box3"><?php echo $_SESSION["box3"]; ?></div>
+    <div class="box box4"><?php echo $_SESSION["box4"]; ?></div>
+    <div class="box box5"><?php echo $_SESSION["box5"]; ?></div>
+    <div class="box box6"><?php echo $_SESSION["box6"]; ?></div>
+    <div class="box box7"><?php echo $_SESSION["box7"]; ?></div>
+    <div class="box box8"><?php echo $_SESSION["box8"]; ?></div>
+  </div>  
 
 </body>
 </html>
